@@ -1,4 +1,4 @@
-# accordion
+# Accordion
 
 This project showcases 2 simple accordions using HTML & CSS ONLY.
 
