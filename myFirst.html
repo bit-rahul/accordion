@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Accordion</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <h1>My First Accordion (HTML + CSS Only)</h1>
+    <div class="row">
+        <div class="col">
+            <h2><b>Multi-Open </b>type Accordion</h2>
+            <div class="tabs">
+                <div class="tab">
+                    <input type="checkbox" id="chck1">
+                    <label class="tab-label" for="chck1">Item 1</label>
+                    <div class="tab-content">
+                        Body for Item 1
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="checkbox" id="chck2">
+                    <label class="tab-label" for="chck2">Item 2</label>
+                    <div class="tab-content">
+                        Body for Item 2
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h2><b>Single-Open </b>type Accordion</h2>
+            <div class="tabs">
+                <div class="tab">
+                    <input type="radio" id="rd1" name="rd">
+                    <label class="tab-label" for="rd1">Item 1</label>
+                    <div class="tab-content">
+                        Body for Item 1
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="rd2" name="rd">
+                    <label class="tab-label" for="rd2">Item 2</label>
+                    <div class="tab-content">
+                        Body for Item 2
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
